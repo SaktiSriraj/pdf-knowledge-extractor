@@ -10,7 +10,7 @@
 
 *Transform your PDFs into intelligent, conversational experiences with advanced AI*
 
-[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🏗️ Architecture](#️-architecture) • [📖 Documentation]([#-documentation](https://github.com/SaktiSriraj/pdf-knowledge-extractor/wiki/%F0%9F%93%9A-Enhanced-RAG-PDF-Chat-%E2%80%90-Documentation))
+[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🏗️ Architecture](#️-architecture) • [📖 Documentation](https://github.com/SaktiSriraj/pdf-knowledge-extractor/wiki/%F0%9F%93%9A-Enhanced-RAG-PDF-Chat-%E2%80%90-Documentation)
 
 </div>
 
@@ -298,7 +298,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **📧 Email**: [dev.saktisriraj@domain.com](mailto:dev.saktisrirajl@domain.com)
 - **💬 Discussions**: [GitHub Discussions](https://github.com/saktisriraj/pdf-knowledge-extractor/discussions)
 - **🐛 Issues**: [GitHub Issues](https://github.com/saktisriraj/pdf-knowledge-extractor/issues)
-- **📖 Documentation**: [Wiki]([https://github.com/saktisriraj/pdf-knowledge-extractor/wiki](https://github.com/SaktiSriraj/pdf-knowledge-extractor/wiki/%F0%9F%93%9A-Enhanced-RAG-PDF-Chat-%E2%80%90-Documentation))
+- **📖 Documentation**: [Wiki](https://github.com/SaktiSriraj/pdf-knowledge-extractor/wiki/%F0%9F%93%9A-Enhanced-RAG-PDF-Chat-%E2%80%90-Documentation)
 
 ---
 

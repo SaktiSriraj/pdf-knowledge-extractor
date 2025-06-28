@@ -1,0 +1,202 @@
+# ====================================
+# Enhanced RAG PDF Chat - .gitignore
+# ====================================
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pipenv/
+
+# Data & Models (Optional - Uncomment if you want to exclude processed data)
+data/
+data/pdfs/
+data/texts/
+data/faiss_index*
+data/metadata.json
+data/langchain_vectorstore/
+data/langchain_cache/
+models/
+
+# If you want to keep data structure but exclude content:
+data/pdfs/*.pdf
+data/texts/*.txt
+data/faiss_index*
+data/metadata.json
+data/langchain_vectorstore/*
+data/langchain_cache/*
+
+# Keep the directories
+!data/pdfs/.gitkeep
+!data/texts/.gitkeep
+!data/langchain_vectorstore/.gitkeep
+!data/langchain_cache/.gitkeep
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm / IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+*.out
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Package managers
+.npm
+node_modules/
+.yarn/
+package-lock.json
+yarn.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+.pytest_cache/
+
+# AI/ML specific
+wandb/
+mlruns/
+.mlflow/
+tensorboard_logs/
+
+# HuggingFace cache (if you want to exclude downloaded models)
+~/.cache/huggingface/
+transformers_cache/
+
+# NLTK data (if downloaded locally)
+nltk_data/
+
+# spaCy models (if downloaded locally)
+spacy_models/
+
+# Local development
+local/
+tmp/
+temp/
+
+# API keys and tokens (extra safety)
+*api_key*
+*token*
+*secret*
+.secrets
+
+# IDE specific
+.spyderproject
+.spyproject
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+
+# Custom application specific
+*.bak
+*.orig
+
+# End of .gitignore

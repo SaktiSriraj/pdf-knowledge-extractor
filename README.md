@@ -75,22 +75,22 @@ graph TB
     I --> J[🤖 DeepSeek R1 API]
     J --> K[✨ Enhanced Response]
     
-    style A fill:#e1f5fe
-    style E fill:#f3e5f5
-    style J fill:#e8f5e8
-    style K fill:#fff3e0
+    style A fill:#e1f5fe, color:#000000
+    style E fill:#f3e5f5, color:#000000
+    style J fill:#e8f5e8, color:#000000
+    style K fill:#fff3e0, color:#000000
 ```
 
 ### 🧩 Core Components
 
-| Component | Technology | Purpose |
-|-----------|------------|---------|
-| **Document Loader** | LangChain + PyMuPDF | Advanced PDF processing and text extraction |
-| **Text Splitter** | RecursiveCharacterTextSplitter | Intelligent document chunking with overlap |
-| **Embeddings** | Sentence Transformers | High-quality vector representations |
-| **Vector Store** | FAISS | Efficient similarity search and retrieval |
-| **LLM Integration** | OpenRouter + DeepSeek R1 | Powerful language model for responses |
-| **UI Framework** | Streamlit | Interactive web interface |
+| Component           | Technology                     | Purpose                                     |
+| ------------------- | ------------------------------ | ------------------------------------------- |
+| **Document Loader** | LangChain + PyMuPDF            | Advanced PDF processing and text extraction |
+| **Text Splitter**   | RecursiveCharacterTextSplitter | Intelligent document chunking with overlap  |
+| **Embeddings**      | Sentence Transformers          | High-quality vector representations         |
+| **Vector Store**    | FAISS                          | Efficient similarity search and retrieval   |
+| **LLM Integration** | OpenRouter + DeepSeek R1       | Powerful language model for responses       |
+| **UI Framework**    | Streamlit                      | Interactive web interface                   |
 
 ---
 
